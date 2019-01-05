@@ -1,0 +1,11 @@
+SQLAlchemy==1.1.13
+Flask==0.12.2
+requests==2.18.4
+celery==4.0.2
+redis==2.10.6
+psycopg2==2.7.4
+alembic==0.9.7
+passlib>=1.7.1
+flask_sqlalchemy
+flask_jwt_extended
+flask_mail

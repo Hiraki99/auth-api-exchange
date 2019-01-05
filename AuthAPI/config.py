@@ -1,0 +1,12 @@
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:trexcore@54.169.58.227:5432/postgres'
+CELERY_BROKER_URL = 'redis://localhost:6379/1'
+result_backend = 'redis://localhost:6379/1'
+MAIL_SERVER = 'mail.unibot.org'
+MAIL_PORT = 26
+MAIL_USERNAME ='adminaibitcash@unibot.org'
+MAIL_PASSWORD = 'hlMJ4t=y.E5T'
+MAIL_DEFAULT_SENDER = 'support@trex.org'
+SECRET_KEY ='t-rex-exchange-17-05-2018'
+SECURITY_PASSWORD_SALT ='123445'
+FOLDER_KYC = './AuthAPI/static/public/'
+DEPOST_APP='http://54.255.151.121:5020'
